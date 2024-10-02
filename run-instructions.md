@@ -46,7 +46,7 @@ Do note that this framework can be used for any environment and is not tied to l
 * Running tests in terminal:
 1. Open the test project in VS Code ( and make sure all pre-requisites are installed)
 2. Open terminal and type: npx playwright tests
-   * note that this command will run all tests, if you want to run individual test classes use: npx playwright test 'testclass.ts'
+   * note that this command will run all tests, if you want to run individual test classes use: npx playwright test testclass.ts
 3. To run tests in debug mode simply add --debug to the end of the run tests command line
 
 
