@@ -1,14 +1,14 @@
-#How to Run Playwright tests
+# How to Run Playwright tests
 
 Below you can find fairly short instructions for running the playwright tests locally.
 Do note that this framework can be used for any environment and is not tied to local app.
 
-##Pre-requisites
+## Pre-requisites
 
 1. Install VS Code - https://code.visualstudio.com/download
 2. Install Playwright - https://playwright.dev/docs/intro
 
-##Framework structure
+## Framework structure
 * /cltodo directory is used as project folder
     * /main directory is used to store POMs and utils
         * /pages directory is where you can find all the defined POM files
@@ -16,18 +16,20 @@ Do note that this framework can be used for any environment and is not tied to l
     * /tests directory is where you can find all the test classes
 * decorators.ts class is used for decorators and fixtures
 
-##Setting the environment
+## Setting the environment
+
 * To run on local environment:
-    1. Run your application locally
-    2. Go to /cltodo/main/utils/utils.ts
-    3. Change the LOCAL_URL variable to your local URL
+1. Run your application locally
+2. Go to /cltodo/main/utils/utils.ts
+3. Change the LOCAL_URL variable to your local URL
 
 * To run on live website:
     1. Run your application locally
     2. Go to /cltodo/main/utils/utils.ts
     3. Change the LOCAL_URL variable with the live website URL
 
-##Running tests and checking results
+## Running tests and checking results
+
 * Running tests in terminal:
     1. Open the test project in VS Code ( and make sure all pre-requisites are installed)
     2. Open terminal and type: npx playwright tests
