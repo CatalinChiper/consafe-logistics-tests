@@ -1,0 +1,17 @@
+{
+  "name": "consafe-logistics-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-ct": "playwright test -c playwright-ct.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/experimental-ct-react": "^1.47.2",
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4"
+  }
+}
